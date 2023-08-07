@@ -1,6 +1,11 @@
 <?php
 require 'vendor/autoload.php';
 
-$test = new SelahattinGns\PhpPackageAbstractFactory\Example();
+$applicationTheme = new SelahattinGns\PhpPackageAbstractFactory\ApplicationTheme();
 
-echo $test->start();
+
+$darkTheme = new \SelahattinGns\PhpPackageAbstractFactory\Themes\DarkThemeFactory();
+echo $applicationTheme->render($darkTheme);
+
+$lightTheme = new \SelahattinGns\PhpPackageAbstractFactory\Themes\LightThemeFactory();
+echo $applicationTheme->render($lightTheme);
