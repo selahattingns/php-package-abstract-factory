@@ -1,0 +1,20 @@
+{
+  "name": "selahattingns/php-package-abstract-factory",
+  "description": "Writing a php package using the abstract factory method.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Selahattin GÜNEŞ",
+      "email": "selahattin.gunes.5@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SelahattinGns\\PhpPackageAbstractFactory\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.4"
+  }
+}
