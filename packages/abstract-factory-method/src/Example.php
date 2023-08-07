@@ -6,6 +6,6 @@ class Example {
 
     public function start()
     {
-        echo 1234567;
+        echo 123456722;
     }
 }
