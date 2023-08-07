@@ -13,4 +13,4 @@
     $lightTheme = new \SelahattinGns\PhpPackageAbstractFactory\Themes\LightThemeFactory();
     $darkTheme = new \SelahattinGns\PhpPackageAbstractFactory\Themes\DarkThemeFactory();
     
-    echo $applicationTheme->render($lightTheme);
+    $applicationTheme->render($lightTheme);
