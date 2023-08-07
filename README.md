@@ -14,3 +14,8 @@
     $darkTheme = new \SelahattinGns\PhpPackageAbstractFactory\Themes\DarkThemeFactory();
     
     $applicationTheme->render($lightTheme);
+
+---
+**Structure;**
+
+![image Structure](images/structure.PNG)
