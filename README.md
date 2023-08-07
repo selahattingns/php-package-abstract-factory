@@ -1,1 +1,1 @@
-# php-package-abstract-factory
+# Writing a php package using the abstract factory method
